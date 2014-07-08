@@ -5,7 +5,7 @@ from os import system
 from easygui import msgbox
 
 while True:
-  delay = randint(30, 1100)
+  delay = randint(60, 2000)
   sleep(delay)
   system("aplay /usr/lib/libreoffice/share/gallery/sounds/kongas.wav")
   msgbox("Hi Dan", "Time is up")
